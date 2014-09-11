@@ -1,6 +1,7 @@
 "GVimのメニュー削除
 "set guioptions-=m
-"set guioptions-=T
+"ツールバー
+set guioptions-=T
 
 "メニューバーの文字化け対策
 source $VIMRUNTIME/delmenu.vim
