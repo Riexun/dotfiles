@@ -63,19 +63,6 @@ augroup c-path
 augroup END
 
 
-"================
-"   GVimの設定
-"	gvimrcは使いたく無かった
-"================
-"GVimのメニュー削除
-"set guioptions-=m
-"set guioptions-=T
-
-"メニューバーの文字化け対策
-source $VIMRUNTIME/delmenu.vim
-set langmenu=ja_jp.utf-8
-source $VIMRUNTIME/menu.vim
-
 "---------------------------
 " Start Neobundle Settings.
 "---------------------------
@@ -94,7 +81,7 @@ NeoBundle 'Shougo/context_filetype.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'thinca/vim-splash'
-NeoBundle 'tyru/eskk.vim'
+"NeoBundle 'tyru/eskk.vim'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
@@ -102,10 +89,10 @@ NeoBundle 'osyo-manga/vim-precious'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'osyo-manga/vim-over'
-NeoBundle 'Shougo/neocomplete.vim'
+"NeoBundle 'Shougo/neocomplete.vim'
 "NeoBundle 'Rip-Rip/clang_complete'
 "NeoBundle 'Shougo/neocomplcache.vim'
-NeoBundle 'osyo-manga/vim-marching'
+"NeoBundle 'osyo-manga/vim-marching'
 "NeoBundle 'Shougo/neoinclude.vim'
 
 call neobundle#end()
