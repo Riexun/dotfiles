@@ -1,0 +1,22 @@
+               おはよう。
+
+           VIM - Vi IMproved
+                 .....                  
+               .:::::::.                
+  ------------:;;;;;;;:-------------    
+  \__________/????????I\___________/   
+    |......|??????????>:........,'      
+    |::::::|$$$$$$$$$.::::::::,'        
+    |::::::|$$$$$$$.::::::::,'OOO+      
+   .|;;;;;;|$$$$$,;;;;;;;;,'OOO8888?    
+.GDD|IIIIII|$$$,7IIIIIII;'OO8DDDDDNNNZ  
+ 'DD|IIIIII|?.IIIIIII+,'DDDDDDDDNNNN8?  
+   '|IIIIIIIIIIIIII,,'DDDDDDDDNNNNO+    
+    |EEEEEEEEEEEEE,'DDDDDDDNNNNNO+      
+    |EEEEEEEEEEE,'DDDDDDDNNNNNZ~        
+    |88888888Z,'DDDDDDDNNNNNZ~          
+    |888888Z,'DDDDDDDDNNNDZ,            
+    |8888Z,' ,NDNNNNNNNN$:              
+    |88Z'      ,MNNNNM7,                
+    '""'         ,MM7,                 
+

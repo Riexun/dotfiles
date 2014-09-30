@@ -51,6 +51,9 @@ set nocompatible
 set encoding=utf-8
 scriptencoding utf-8
 
+"テンプレート
+autocmd BufNewFile *.html = $HOME/.vim/template/html.txt
+
 " パスの設定
 augroup cpp-path
     autocmd!
@@ -205,6 +208,8 @@ imap <C-x><C-o> <Plug>(marching_start_omni_complete)
 " この設定の場合は vimproc.vim に依存しない
 " let g:marching_backend = "sync_clang_comm
 
+" === vim-splash ===
+let g:splash#path = "splash.txt"
 "-------------------------
 "   ラグインの設定おわり
 "-------------------------
