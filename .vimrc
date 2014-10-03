@@ -8,7 +8,6 @@ set iminsert=0
 set laststatus=2
 
 "ふぉんと
-set guifont=Ricty\ Discord\ for\ Powerline:h12
 set ambiwidth=double
 
 " タブ関係
@@ -52,7 +51,11 @@ set encoding=utf-8
 scriptencoding utf-8
 
 "テンプレート
-autocmd BufNewFile *.html = $HOME/.vim/template/html.txt
+autocmd BufNewFile *.html 0r $HOME/.vim/template/html.txt
+
+"自動コメントを無効
+setlocal formatoptions-=r
+setlocal formatoptions-=o
 
 " パスの設定
 augroup cpp-path
@@ -80,7 +83,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
  
 " 今後このあたりに追加のプラグインをどんどん書いて行きます！！"
 NeoBundle 'Shougo/vimshell.vim'
-NeoBundle 'Shougo/context_filetype.vim'
+"NeoBundle 'Shougo/context_filetype.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'thinca/vim-splash'
@@ -88,7 +91,7 @@ NeoBundle 'thinca/vim-splash'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
-NeoBundle 'osyo-manga/vim-precious'
+"NeoBundle 'osyo-manga/vim-precious'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'osyo-manga/vim-over'

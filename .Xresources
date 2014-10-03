@@ -1,0 +1,25 @@
+UXTerm*faceName:Ubuntu Mono:style=Regular
+UXTerm*faceNameDoublesize:Ricty Discord for Powerline:style=Regular
+UXTerm*faceSize:12
+UXTerm*dynamicColors:true
+UXTerm*utf8:2
+UXTerm*saveLines:512
+UXTerm*background:#1B1D1E
+UXTerm*foreground:#C8C8C8
+UXTerm*textColor0:#1B1D1E
+UXTerm*textColor1:#F92672
+UXTerm*textColor2:#82B414
+UXTerm*textColor3:#FD971F
+UXTerm*textColor4:#268BD2
+UXTerm*textColor5:#8C54FE
+UXTerm*textColor6:#56C2D6
+UXTerm*textColor7:#CCCCC6
+UXTerm*textColor8:#FF5995
+UXTerm*textColor9:#505354
+UXTerm*textColor10:#B7EB46
+UXTerm*textColor11:#FEED6C
+UXTerm*textColor12:#62ADE3
+UXTerm*textColor13:#BFA0FE
+UXTerm*textColor14:#94D8E5
+UXTerm*textColor15:#F8F8F2
+UXTerm*scrollBar:true
