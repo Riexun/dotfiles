@@ -7,3 +7,7 @@ set guioptions-=T
 source $VIMRUNTIME/delmenu.vim
 set langmenu=ja_jp.utf-8
 source $VIMRUNTIME/menu.vim
+
+"フォント
+set guifont=Ubuntu\ Mono\ for\ Powerline\ 12
+set guifontwide=Ricty\ Discord\ for\ Powerline\ 12

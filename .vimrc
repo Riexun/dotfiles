@@ -14,6 +14,9 @@ set ambiwidth=double
 set tabstop=4
 set shiftwidth=4
 set autoindent
+set smartindent
+set noexpandtab
+set smarttab
 set guitablabel=%N:%t
 
 "検索関係
@@ -52,22 +55,21 @@ scriptencoding utf-8
 
 "テンプレート
 autocmd BufNewFile *.html 0r $HOME/.vim/template/html.txt
+autocmd BufNewFile *.slim 0r $HOME/.vim/template/slim.txt
 
 "自動コメントを無効
-setlocal formatoptions-=r
-setlocal formatoptions-=o
+autocmd FileType * setlocal formatoptions-=ro
 
 " パスの設定
-augroup cpp-path
-    autocmd!
-    autocmd FileType cpp setlocal path=C:\MinGW\lib\gcc\mingw32\4.8.1\include,C:\MinGW\lib\gcc\mingw32\4.8.1\include\ssp,C:\MinGW\lib\gcc\mingw32\4.8.1\include\c++
-augroup END
-
-augroup c-path
-    autocmd!
-    autocmd FileType c setlocal path=C:\MinGW\lib\gcc\mingw32\4.8.1\include,C:\MinGW\lib\gcc\mingw32\4.8.1\include\ssp
-augroup END
-
+"augroup cpp-path
+"    autocmd!
+"    autocmd FileType cpp setlocal path=C:\MinGW\lib\gcc\mingw32\4.8.1\include,C:\MinGW\lib\gcc\mingw32\4.8.1\include\ssp,C:\MinGW\lib\gcc\mingw32\4.8.1\include\c++
+"augroup END
+"
+"augroup c-path
+"    autocmd!
+"    autocmd FileType c setlocal path=C:\MinGW\lib\gcc\mingw32\4.8.1\include,C:\MinGW\lib\gcc\mingw32\4.8.1\include\ssp
+"augroup END
 
 "---------------------------
 " Start Neobundle Settings.
@@ -100,6 +102,8 @@ NeoBundle 'osyo-manga/vim-over'
 "NeoBundle 'Shougo/neocomplcache.vim'
 "NeoBundle 'osyo-manga/vim-marching'
 "NeoBundle 'Shougo/neoinclude.vim'
+NeoBundle 'mattn/emmet-vim'
+NeoBundle 'slim-template/vim-slim'
 
 call neobundle#end()
  
@@ -212,7 +216,8 @@ imap <C-x><C-o> <Plug>(marching_start_omni_complete)
 " let g:marching_backend = "sync_clang_comm
 
 " === vim-splash ===
-let g:splash#path = "splash.txt"
+"let g:splash#path = $VIMRUNTIME_USER/splash.txt
+
 "-------------------------
 "   ラグインの設定おわり
 "-------------------------
